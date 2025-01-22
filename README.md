@@ -90,10 +90,10 @@ name          varchar      Name of the Category.
 
 Product Table:
 Column Name     Data Type       Description
-id             BIGINT (PK)      Auto-incremented ID.
-name           VARCHAR(255)      Name of the product.
-price          DOUBLE            Price of the product.
-category_id    BIGINT (FK)       Linked category ID.
+id             BIGINT (PK).      Auto-incremented ID.
+name           VARCHAR(255).     Name of the product.
+price          DOUBLE.           Price of the product.
+category_id    BIGINT (FK).       Linked category ID.
 
 
 ##Project Structure:
@@ -106,7 +106,7 @@ src/
 │   │   ├── service/          # Service layer containing business logic
 │   ├── resources/
 │       ├── application.properties  # Application configuration
-│       ├── data.sql                # Optional: Initial seed data
+│       ├── data.sql                # Optional: Initial seed data.
 
 Pagination:
 
