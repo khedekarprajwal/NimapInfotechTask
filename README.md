@@ -95,6 +95,8 @@ name           VARCHAR(255)      Name of the product.
 price          DOUBLE            Price of the product.
 category_id    BIGINT (FK)       Linked category ID.
 
+
+##Project Structure:
 src/
 ├── main/
 │   ├── java/com/springboot/Restapi/
